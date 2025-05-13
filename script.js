@@ -1,5 +1,15 @@
 const questions = [
   // SCIENCE - CŒUR
+ {
+    theme: "Relation - amour",
+    question: "Date d'anniversaire de wail  ?",
+    answers: [
+      { text: "Le 06/07/1998", correct: true },
+      { text: "Le 06/07/1997", correct: false },
+      { text: "Le 07/06/1998", correct: false },
+      { text: "Le 05/05/1999", correct: false },
+    ]
+  },
   {
     theme: "Science - Cœur",
     question: "Quel organe pompe le sang dans tout le corps ?",
@@ -207,6 +217,17 @@ const questions = [
       { text: "Canada", correct: false },
       { text: "Mexique", correct: false },
       { text: "Brésil", correct: false },
+    ]
+  },
+
+  {
+    theme: "Intérét ",
+    question: "la pays préféré de nesrine ?",
+    answers: [
+      { text: "Allemagne", correct: true },
+      { text: "Canada", correct: false },
+      { text: "Norvege", correct: false },
+      { text: "italy", correct: false },
     ]
   },
   {
