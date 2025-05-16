@@ -27,17 +27,17 @@ const questions = [
       { text: "Ellyne lilya", correct: true },
       { text: "Ellyne", correct: false },
       { text: "Ellyne Lujain", correct: false },
-      { text: "Ellyne mochakisa", correct: false },
+
     ]
   },
  {
     theme: "Relation - amour",
-    question: "Prénom de notre fille  ?",
+    question: "Prénom de notre deuxieme fille  ?",
     answers: [
-      { text: "Ellyne lilya", correct: true },
-      { text: "Ellyne", correct: false },
-      { text: "Ellyne Lujain", correct: false },
-      { text: "Ellyne mochakisa", correct: false },
+      { text: "lujain rahaf", correct: true },
+      { text: "lujain ", correct: false },
+      { text: "lujain ellye", correct: false },
+
     ]
   },
  {
@@ -82,7 +82,7 @@ const questions = [
   },
  {
     theme: "Relation - amour",
-    question: "Que deteste Nesrine ?",
+    question: "Que n'aime pas Nesrine ?",
     answers: [
       { text: "sardine", correct: true },
       { text: "haricot", correct: false },
@@ -92,9 +92,9 @@ const questions = [
   },
  {
     theme: "Relation - amour",
-    question: "Que deteste Wail ?",
+    question: "Que n'aime pas Wail ?",
     answers: [
-      { text: "escargot ", correct: true },
+      { text: "mloukhiya", correct: true },
       { text: "frite", correct: false },
       { text: "pizza", correct: false },
       { text: "Saumon", correct: false },
@@ -112,7 +112,7 @@ const questions = [
   },
  {
     theme: "Relation - amour",
-    question: "Que préfére Nesrine fi 9ahwa?",
+    question: "Que préfére Nesrine fi 9ahwa le plus?",
     answers: [
       { text: "chocolat chaud ", correct: true },
       { text: "lait", correct: false },
