@@ -2,245 +2,174 @@ const questions = [
   // SCIENCE - CŒUR
  {
     theme: "Relation - amour",
-    question: "Date d'anniversaire de wail  ?",
+    question: "Date d'anniversaire de Nesrine  ?",
     answers: [
-      { text: "Le 06/07/1998", correct: true },
-      { text: "Le 06/07/1997", correct: false },
-      { text: "Le 07/06/1998", correct: false },
-      { text: "Le 05/05/1999", correct: false },
-    ]
-  },
-  {
-    theme: "Science - Cœur",
-    question: "Quel organe pompe le sang dans tout le corps ?",
-    answers: [
-      { text: "Le cœur", correct: true },
-      { text: "Le foie", correct: false },
-      { text: "Le rein", correct: false },
-      { text: "Les poumons", correct: false },
+      { text: "Le 15/08/2004", correct: true },
+      { text: "Le 15/09/2004", correct: false },
+      { text: "Le 05/08/2004", correct: false },
+      { text: "Le 15/08/2024", correct: false },
     ]
   },
  {
     theme: "Relation - amour",
-    question: "Date d'anniversaire de Nesrine  ?",
+    question: "Date d'anniversaire de Wail  ?",
     answers: [
-      { text: "Le 15/08/2004", correct: true },
-      { text: "Le 05/08/2004", correct: false },
-      { text: "Le 15/11/2000", correct: false },
-      { text: "Le 05/08/1998", correct: false },
+      { text: "Le 06/07/1998", correct: true },
+      { text: "Le 07/07/1998", correct: false },
+      { text: "Le 08/07/2004", correct: false },
+      { text: "Le 05/07/1998", correct: false },
     ]
   },
+ {
+    theme: "Relation - amour",
+    question: "Prénom de notre fille  ?",
+    answers: [
+      { text: "Ellyne lilya", correct: true },
+      { text: "Ellyne", correct: false },
+      { text: "Ellyne Lujain", correct: false },
+      { text: "Ellyne mochakisa", correct: false },
+    ]
+  },
+ {
+    theme: "Relation - amour",
+    question: "Prénom de notre fille  ?",
+    answers: [
+      { text: "Ellyne lilya", correct: true },
+      { text: "Ellyne", correct: false },
+      { text: "Ellyne Lujain", correct: false },
+      { text: "Ellyne mochakisa", correct: false },
+    ]
+  },
+ {
+    theme: "Relation - amour",
+    question: "Que préfére nesrine ?",
+    answers: [
+      { text: "salé plus que sucré", correct: true },
+      { text: "Sucrée plus que salé", correct: false },
+      { text: "mixte des deux", correct: false },
+      { text: "grignotage", correct: false },
+    ]
+  },
+ {
+    theme: "Relation - amour",
+    question: "Que préfére wail ?",
+    answers: [
+      { text: "salé plus que sucré", correct: true },
+      { text: "Sucrée plus que salé", correct: false },
+      { text: "mixte des deux", correct: false },
+      { text: "grignotage", correct: false },
+    ]
+  },
+ {
+    theme: "Relation - amour",
+    question: "Que préfére  wail ?",
+    answers: [
+      { text: "pizza sauce blanche", correct: true },
+      { text: "chawarma", correct: false },
+      { text: "soufflé", correct: false },
+      { text: "makloub poulet", correct: false },
+    ]
+  },
+ {
+    theme: "Relation - amour",
+    question: "Que préfére Nesrine ?",
+    answers: [
+      { text: "pizza sauce blanche", correct: false },
+      { text: "burger", correct: false },
+      { text: "tacos gratiné", correct: true },
+      { text: "méxicain", correct: false },
+    ]
+  },
+ {
+    theme: "Relation - amour",
+    question: "Que deteste Nesrine ?",
+    answers: [
+      { text: "sardine", correct: true },
+      { text: "haricot", correct: false },
+      { text: "crevette", correct: false },
+      { text: "Saumon", correct: false },
+    ]
+  },
+ {
+    theme: "Relation - amour",
+    question: "Que deteste Wail ?",
+    answers: [
+      { text: "escargot ", correct: true },
+      { text: "frite", correct: false },
+      { text: "pizza", correct: false },
+      { text: "Saumon", correct: false },
+    ]
+  },
+ {
+    theme: "Relation - amour",
+    question: "Que préfére Nesrine en général?",
+    answers: [
+      { text: "gout chocolat ", correct: true },
+      { text: "gout fraise", correct: false },
+      { text: "gout vanilla", correct: false },
+      { text: "gout citron", correct: false },
+    ]
+  },
+ {
+    theme: "Relation - amour",
+    question: "Que préfére Nesrine fi 9ahwa?",
+    answers: [
+      { text: "chocolat chaud ", correct: true },
+      { text: "lait", correct: false },
+      { text: "thé", correct: false },
+      { text: "café", correct: false },
+    ]
+  },
+ {
+    theme: "Relation - amour",
+    question: "couleur préféré de nesrine",
+    answers: [
+      { text: "rose + violet ", correct: true },
+      { text: "vert + blanc", correct: false },
+      { text: "noir + beige", correct: false },
+      { text: "rouge + violet", correct: false },
+    ]
+  },
+ {
+    theme: "Relation - amour",
+    question: "couleur préféré de wail",
+    answers: [
+      { text: "rose + blanc ", correct: true },
+      { text: "vert + bleue", correct: false },
+      { text: "noir + beige", correct: false },
+      { text: "noir + violet", correct: false },
+    ]
+  },
+ {
+    theme: "Relation - amour",
+    question: "quelle habille préfére nesrine",
+    answers: [
+      { text: "les robe ", correct: true },
+      { text: "tenue classic simple", correct: false },
+      { text: "pantalon", correct: false },
+      { text: "rien de tout cela", correct: false },
+    ]
+  },
+ {
+    theme: "Relation - amour",
+    question: "Nesrine tbghi boisson",
+    answers: [
+      { text: "chaude ", correct: true },
+      { text: "froide", correct: false },
 
-  {
-    theme: "Science - Cœur",
-    question: "Combien de cavités contient le cœur humain ?",
-    answers: [
-      { text: "2", correct: false },
-      { text: "4", correct: true },
-      { text: "3", correct: false },
-      { text: "5", correct: false }
     ]
   },
-  {
-    theme: "Science - Cœur",
-    question: "Quel est le rôle principal du cœur ?",
+ {
+    theme: "Relation - amour",
+    question: "que resprésente nesrine a wail ?",
     answers: [
-      { text: "Digérer les aliments", correct: false },
-      { text: "Pomper le sang", correct: true },
-      { text: "Produire de l'oxygène", correct: false },
-      { text: "Contrôler les muscles", correct: false }
-    ]
-  },
-  {
-    theme: "Science - Cœur",
-    question: "Dans quel organe le sang est-il oxygéné ?",
-    answers: [
-      { text: "Le foie", correct: false },
-      { text: "Le rein", correct: false },
-      { text: "Les poumons", correct: true },
-      { text: "Le cœur", correct: false }
-    ]
-  },
-  {
-    theme: "Science - Cœur",
-    question: "Comment appelle-t-on les vaisseaux qui apportent le sang au cœur ?",
-    answers: [
-      { text: "Veines", correct: true },
-      { text: "Artères", correct: false },
-      { text: "Capillaires", correct: false },
-      { text: "Nerfs", correct: false }
-    ]
-  },
-
-  // SCIENCE - REINS
-  {
-    theme: "Science - Reins",
-    question: "Quelle est la fonction principale des reins ?",
-    answers: [
-      { text: "Filtrer le sang", correct: true },
-      { text: "Pomper le sang", correct: false },
-      { text: "Produire des hormones", correct: false },
-      { text: "Aider à digérer", correct: false },
-    ]
-  },
-  {
-    theme: "Science - Reins",
-    question: "Combien de reins possède normalement un humain ?",
-    answers: [
-      { text: "1", correct: false },
-      { text: "2", correct: true },
-      { text: "3", correct: false },
-      { text: "4", correct: false }
-    ]
-  },
-  {
-    theme: "Science - Reins",
-    question: "Quel est le rôle principal des reins ?",
-    answers: [
-      { text: "Filtrer le sang", correct: true },
-      { text: "Produire du sang", correct: false },
-      { text: "Pomper le sang", correct: false },
-      { text: "Digérer la nourriture", correct: false }
-    ]
-  },
-  {
-    theme: "Science - Reins",
-    question: "Comment s'appelle le liquide produit par les reins ?",
-    answers: [
-      { text: "Le sang", correct: false },
-      { text: "La bile", correct: false },
-      { text: "L'urine", correct: true },
-      { text: "La salive", correct: false }
-    ]
-  },
-  {
-    theme: "Science - Reins",
-    question: "Quelle machine remplace les reins en cas de problème grave ?",
-    answers: [
-      { text: "Un respirateur", correct: false },
-      { text: "Un défibrillateur", correct: false },
-      { text: "Une dialyse", correct: true },
-      { text: "Un pacemaker", correct: false }
-    ]
-  },
-
-  // SCIENCE - CORPS HUMAIN
-  {
-    theme: "Science - Corps humain",
-    question: "Combien d'os possède un adulte humain ?",
-    answers: [
-      { text: "206", correct: true },
-      { text: "305", correct: false },
-      { text: "150", correct: false },
-      { text: "180", correct: false }
-    ]
-  },
-  {
-    theme: "Science - Corps humain",
-    question: "Quel organe contrôle le corps humain ?",
-    answers: [
-      { text: "Le cœur", correct: false },
-      { text: "Le foie", correct: false },
-      { text: "Le cerveau", correct: true },
-      { text: "Les reins", correct: false }
-    ]
-  },
-
-  // ALIMENTS
-  {
-    theme: "Aliment",
-    question: "Quel fruit est riche en vitamine C ?",
-    answers: [
-      { text: "Orange", correct: true },
-      { text: "Banane", correct: false },
-      { text: "Pomme", correct: false },
-      { text: "Cerise", correct: false },
-    ]
-  },
-  {
-    theme: "Aliment",
-    question: "Quel aliment est une source de protéines ?",
-    answers: [
-      { text: "Viande", correct: true },
-      { text: "Sucre", correct: false },
-      { text: "Farine", correct: false },
-      { text: "Beurre", correct: false },
-    ]
-  },
-
-  // VOYAGE / CAPITALLES
-  {
-    theme: "Capitale",
-    question: "Quelle est la capitale de la France ?",
-    answers: [
-      { text: "Paris", correct: true },
-      { text: "Lyon", correct: false },
-      { text: "Marseille", correct: false },
-      { text: "Toulouse", correct: false },
-    ]
-  },
-  {
-    theme: "Capitale",
-    question: "Où se trouve la ville de Tokyo ?",
-    answers: [
-      { text: "Japon", correct: true },
-      { text: "Chine", correct: false },
-      { text: "Corée", correct: false },
-      { text: "Vietnam", correct: false },
-    ]
-  },
-  {
-    theme: "Voyage",
-    question: "Quelle ville est célèbre pour la Tour Eiffel ?",
-    answers: [
-      { text: "Paris", correct: true },
-      { text: "Rome", correct: false },
-      { text: "Londres", correct: false },
-      { text: "Berlin", correct: false },
-    ]
-  },
-  {
-    theme: "Voyage",
-    question: "Quelle est la capitale de l'Algérie ?",
-    answers: [
-      { text: "Alger", correct: true },
-      { text: "Oran", correct: false },
-      { text: "Constantine", correct: false },
-      { text: "Tlemcen", correct: false },
-    ]
-  },
-  {
-    theme: "Voyage",
-    question: "Où se trouve la ville de New York ?",
-    answers: [
-      { text: "États-Unis", correct: true },
-      { text: "Canada", correct: false },
-      { text: "Mexique", correct: false },
-      { text: "Brésil", correct: false },
-    ]
-  },
-
-  {
-    theme: "Intérét ",
-    question: "la pays préféré de nesrine ?",
-    answers: [
-      { text: "Allemagne", correct: true },
-      { text: "Canada", correct: false },
-      { text: "Norvege", correct: false },
-      { text: "italy", correct: false },
-    ]
-  },
-  {
-    theme: "Voyage",
-    question: "Quelle est la capitale de l'Espagne ?",
-    answers: [
-      { text: "Madrid", correct: true },
-      { text: "Barcelone", correct: false },
-      { text: "Valence", correct: false },
-      { text: "Séville", correct: false },
+      { text: "Tout elle est ca vie", correct: true },
+      { text: "une femme qu'il aime ", correct: true },
+      { text: "ca fille et maman", correct: true },
+      { text: "sont oxygene", correct: true },
     ]
   }
-];
+ ];
 
 // Éléments du DOM
 const questionElement = document.getElementById("question");
