@@ -168,7 +168,17 @@ const questions = [
       { text: "ca fille et maman", correct: true },
       { text: "sont oxygene", correct: true },
     ]
-  }
+  },
+ {
+    theme: "Relation - amour",
+    question: "q'aime faire wail et nesrine ?",
+    answers: [
+      { text: "l'amour", correct: true },
+      { text: "voyagé ", correct: true },
+      { text: "cuisiné ensemble", correct: true },
+      { text: "tout ensemble", correct: true },
+    ]
+  },
  ];
 
 // Éléments du DOM
