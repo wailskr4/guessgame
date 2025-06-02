@@ -19,7 +19,7 @@ const questions = [
     { text: "B négatif", correct: false },
     { text: "AB positif", correct: false },
   ]
-}
+},
   {
     theme: "Médecine",
     question: "Combien d’os possède le corps humain adulte ?",
@@ -195,7 +195,7 @@ const questions = [
     { text: "La Grèce", correct: false },
     { text: "L’Espagne", correct: false },
   ]
-}
+},
   {
     theme: "Pays",
     question: "Quel pays est connu pour le Taj Mahal ?",
