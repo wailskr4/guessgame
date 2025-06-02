@@ -1,185 +1,286 @@
 const questions = [
-  // SCIENCE - CŒUR
- {
-    theme: "Relation - amour",
-    question: "Date d'anniversaire de Nesrine  ?",
+  // CULTURE GÉNÉRALE - MÉDECINE
+{
+  theme: "Médecine",
+  question: "Quel est le plus grand organe du corps humain ?",
+  answers: [
+    { text: "La peau", correct: true },
+    { text: "Le foie", correct: false },
+    { text: "Le cerveau", correct: false },
+    { text: "Les poumons", correct: false },
+  ]
+},
+  {
+  theme: "Médecine",
+  question: "Quel type de sang est considéré comme donneur universel ?",
+  answers: [
+    { text: "O négatif", correct: true },
+    { text: "A positif", correct: false },
+    { text: "B négatif", correct: false },
+    { text: "AB positif", correct: false },
+  ]
+}
+  {
+    theme: "Médecine",
+    question: "Combien d’os possède le corps humain adulte ?",
     answers: [
-      { text: "Le 15/08/2004", correct: true },
-      { text: "Le 15/09/2004", correct: false },
-      { text: "Le 05/08/2004", correct: false },
-      { text: "Le 15/08/2024", correct: false },
+      { text: "206", correct: true },
+      { text: "210", correct: false },
+      { text: "201", correct: false },
+      { text: "190", correct: false },
     ]
   },
- {
-    theme: "Relation - amour",
-    question: "Date d'anniversaire de Wail  ?",
+  {
+    theme: "Médecine",
+    question: "Quel est le rôle principal des globules rouges ?",
     answers: [
-      { text: "Le 06/07/1998", correct: true },
-      { text: "Le 07/07/1998", correct: false },
-      { text: "Le 08/07/2004", correct: false },
-      { text: "Le 05/07/1998", correct: false },
+      { text: "Transporter l’oxygène", correct: true },
+      { text: "Combattre les infections", correct: false },
+      { text: "Digérer les graisses", correct: false },
+      { text: "Produire des hormones", correct: false },
     ]
   },
- {
-    theme: "Relation - amour",
-    question: "Prénom de notre fille  ?",
+  {
+    theme: "Médecine",
+    question: "Quel organe est affecté par l’hépatite ?",
     answers: [
-      { text: "Ellyne lilya", correct: true },
-      { text: "Ellyne", correct: false },
-      { text: "Ellyne Lujain", correct: false },
+      { text: "Le foie", correct: true },
+      { text: "Le cœur", correct: false },
+      { text: "Le pancréas", correct: false },
+      { text: "Les reins", correct: false },
+    ]
+  },
+  {
+    theme: "Médecine",
+    question: "Quelle vitamine est produite par la peau au soleil ?",
+    answers: [
+      { text: "Vitamine D", correct: true },
+      { text: "Vitamine A", correct: false },
+      { text: "Vitamine C", correct: false },
+      { text: "Vitamine B12", correct: false },
+    ]
+  },
 
+  // CULTURE GÉNÉRALE - VOYAGE
+  {
+    theme: "Voyage",
+    question: "Quel est le pays le plus visité au monde ?",
+    answers: [
+      { text: "France", correct: true },
+      { text: "Italie", correct: false },
+      { text: "États-Unis", correct: false },
+      { text: "Espagne", correct: false },
     ]
   },
- {
-    theme: "Relation - amour",
-    question: "Prénom de notre deuxieme fille  ?",
+  {
+    theme: "Voyage",
+    question: "Dans quel pays se trouve la ville de Kyoto ?",
     answers: [
-      { text: "lujain rahaf", correct: true },
-      { text: "lujain ", correct: false },
-      { text: "lujain ellye", correct: false },
+      { text: "Japon", correct: true },
+      { text: "Chine", correct: false },
+      { text: "Corée du Sud", correct: false },
+      { text: "Thaïlande", correct: false },
+    ]
+  },
+  {
+    theme: "Voyage",
+    question: "Quelle est la capitale du Canada ?",
+    answers: [
+      { text: "Ottawa", correct: true },
+      { text: "Toronto", correct: false },
+      { text: "Vancouver", correct: false },
+      { text: "Montréal", correct: false },
+    ]
+  },
+  {
+    theme: "Voyage",
+    question: "Quel pays est célèbre pour ses pyramides ?",
+    answers: [
+      { text: "Égypte", correct: true },
+      { text: "Mexique", correct: false },
+      { text: "Inde", correct: false },
+      { text: "Grèce", correct: false },
+    ]
+  },
 
+  // CULTURE GÉNÉRALE - CULTURE
+  {
+    theme: "Culture",
+    question: "Qui a peint la Joconde ?",
+    answers: [
+      { text: "Léonard de Vinci", correct: true },
+      { text: "Pablo Picasso", correct: false },
+      { text: "Vincent van Gogh", correct: false },
+      { text: "Claude Monet", correct: false },
     ]
   },
- {
-    theme: "Relation - amour",
-    question: "Que préfére nesrine ?",
+  {
+    theme: "Culture",
+    question: "Quel écrivain est l’auteur de 'Les Misérables' ?",
     answers: [
-      { text: "salé plus que sucré", correct: true },
-      { text: "Sucrée plus que salé", correct: false },
-      { text: "mixte des deux", correct: false },
-      { text: "grignotage", correct: false },
+      { text: "Victor Hugo", correct: true },
+      { text: "Émile Zola", correct: false },
+      { text: "Molière", correct: false },
+      { text: "Albert Camus", correct: false },
     ]
   },
- {
-    theme: "Relation - amour",
-    question: "Que préfére wail ?",
+  {
+    theme: "Culture",
+    question: "Quel monument est situé à Paris ?",
     answers: [
-      { text: "salé plus que sucré", correct: true },
-      { text: "Sucrée plus que salé", correct: false },
-      { text: "mixte des deux", correct: false },
-      { text: "grignotage", correct: false },
+      { text: "Tour Eiffel", correct: true },
+      { text: "Big Ben", correct: false },
+      { text: "Statue de la Liberté", correct: false },
+      { text: "Colisée", correct: false },
     ]
   },
- {
-    theme: "Relation - amour",
-    question: "Que préfére  wail ?",
-    answers: [
-      { text: "pizza sauce blanche", correct: true },
-      { text: "chawarma", correct: false },
-      { text: "soufflé", correct: false },
-      { text: "makloub poulet", correct: false },
-    ]
-  },
- {
-    theme: "Relation - amour",
-    question: "Que préfére Nesrine ?",
-    answers: [
-      { text: "pizza sauce blanche", correct: false },
-      { text: "burger", correct: false },
-      { text: "tacos gratiné", correct: true },
-      { text: "méxicain", correct: false },
-    ]
-  },
- {
-    theme: "Relation - amour",
-    question: "Que n'aime pas Nesrine ?",
-    answers: [
-      { text: "sardine", correct: true },
-      { text: "haricot", correct: false },
-      { text: "crevette", correct: false },
-      { text: "Saumon", correct: false },
-    ]
-  },
- {
-    theme: "Relation - amour",
-    question: "Que n'aime pas Wail ?",
-    answers: [
-      { text: "mloukhiya", correct: true },
-      { text: "frite", correct: false },
-      { text: "pizza", correct: false },
-      { text: "Saumon", correct: false },
-    ]
-  },
- {
-    theme: "Relation - amour",
-    question: "Que préfére Nesrine en général?",
-    answers: [
-      { text: "gout chocolat ", correct: true },
-      { text: "gout fraise", correct: false },
-      { text: "gout vanilla", correct: false },
-      { text: "gout citron", correct: false },
-    ]
-  },
- {
-    theme: "Relation - amour",
-    question: "Que préfére Nesrine fi 9ahwa le plus?",
-    answers: [
-      { text: "chocolat chaud ", correct: true },
-      { text: "lait", correct: false },
-      { text: "thé", correct: false },
-      { text: "café", correct: false },
-    ]
-  },
- {
-    theme: "Relation - amour",
-    question: "couleur préféré de nesrine",
-    answers: [
-      { text: "rose + violet ", correct: true },
-      { text: "vert + blanc", correct: false },
-      { text: "noir + beige", correct: false },
-      { text: "rouge + violet", correct: false },
-    ]
-  },
- {
-    theme: "Relation - amour",
-    question: "couleur préféré de wail",
-    answers: [
-      { text: "rose + blanc ", correct: true },
-      { text: "vert + bleue", correct: false },
-      { text: "noir + beige", correct: false },
-      { text: "noir + violet", correct: false },
-    ]
-  },
- {
-    theme: "Relation - amour",
-    question: "quelle habille préfére nesrine",
-    answers: [
-      { text: "les robe ", correct: true },
-      { text: "tenue classic simple", correct: false },
-      { text: "pantalon", correct: false },
-      { text: "rien de tout cela", correct: false },
-    ]
-  },
- {
-    theme: "Relation - amour",
-    question: "Nesrine tbghi boisson",
-    answers: [
-      { text: "chaude ", correct: true },
-      { text: "froide", correct: false },
 
-    ]
-  },
- {
-    theme: "Relation - amour",
-    question: "que resprésente nesrine a wail ?",
+  // CULTURE GÉNÉRALE - PAYS
+  {
+    theme: "Pays",
+    question: "Quel est le plus grand pays du monde ?",
     answers: [
-      { text: "Tout elle est ca vie", correct: true },
-      { text: "une femme qu'il aime ", correct: true },
-      { text: "ca fille et maman", correct: true },
-      { text: "sont oxygene", correct: true },
+      { text: "Russie", correct: true },
+      { text: "Canada", correct: false },
+      { text: "Chine", correct: false },
+      { text: "États-Unis", correct: false },
     ]
   },
- {
-    theme: "Relation - amour",
-    question: "q'aime faire wail et nesrine ?",
+  {
+    theme: "Pays",
+    question: "Quel pays a le plus grand nombre d’habitants ?",
     answers: [
-      { text: "l'amour", correct: true },
-      { text: "voyagé ", correct: true },
-      { text: "cuisiné ensemble", correct: true },
-      { text: "tout ensemble", correct: true },
+      { text: "Chine", correct: true },
+      { text: "Inde", correct: false },
+      { text: "États-Unis", correct: false },
+      { text: "Indonésie", correct: false },
     ]
   },
- ];
+  {
+    theme: "Pays",
+    question: "Dans quel continent se trouve l’Argentine ?",
+    answers: [
+      { text: "Amérique du Sud", correct: true },
+      { text: "Amérique du Nord", correct: false },
+      { text: "Europe", correct: false },
+      { text: "Asie", correct: false },
+    ]
+  },
+  {
+    theme: "Pays",
+    question: "Quelle est la monnaie officielle du Japon ?",
+    answers: [
+      { text: "Yen", correct: true },
+      { text: "Won", correct: false },
+      { text: "Dollar", correct: false },
+      { text: "Euro", correct: false },
+    ]
+  },
+    {
+  theme: "Nourriture",
+  question: "Quel fruit est connu pour être riche en potassium ?",
+  answers: [
+    { text: "La banane", correct: true },
+    { text: "La pomme", correct: false },
+    { text: "L’orange", correct: false },
+    { text: "La fraise", correct: false },
+  ]
+},
+{
+  theme: "Nourriture",
+  question: "Quel pays est célèbre pour la pizza et les pâtes ?",
+  answers: [
+    { text: "L’Italie", correct: true },
+    { text: "La France", correct: false },
+    { text: "La Grèce", correct: false },
+    { text: "L’Espagne", correct: false },
+  ]
+}
+  {
+    theme: "Pays",
+    question: "Quel pays est connu pour le Taj Mahal ?",
+    answers: [
+      { text: "Inde", correct: true },
+      { text: "Pakistan", correct: false },
+      { text: "Indonésie", correct: false },
+      { text: "Iran", correct: false },
+    ]
+  },
+   {
+    theme: "Amour",
+    question: "Quel est la couleur préféré de nesrine ?",
+    answers: [
+      { text: "Rose", correct: true },
+      { text: "Rouge", correct: false },
+      { text: "Noir", correct: false },
+      { text: "Blanc", correct: false },
+    ]
+  },
+   {
+    theme: "Amour",
+    question: "Que Préfére Nesrine mratie ?",
+    answers: [
+      { text: "Chocolat Chaud", correct: true },
+      { text: "Lait", correct: false },
+      { text: "Café", correct: false },
+      { text: "eau", correct: false },
+    ]
+  },
+
+     {
+    theme: "Amour",
+    question: "quelle  patisserie préfére mratie ?",
+    answers: [
+      { text: "Macaron", correct: true },
+      { text: "éclair", correct: false },
+      { text: "mille-feuille", correct: false },
+      { text: "cookies", correct: false },
+    ]
+  },
+   {
+    theme: "Amour",
+    question: "Que Préfére wail  ?",
+    answers: [
+      { text: "Chocolat Chaud", correct: true },
+      { text: "Lait", correct: false },
+      { text: "Café", correct: false },
+      { text: "smoothie", correct: false },
+    ]
+  },
+   {
+    theme: "Amour",
+    question: "Que Préfére wail comme scack  ?",
+    answers: [
+      { text: "chocolat sans farine", correct: true },
+      { text: "éclair", correct: false },
+      { text: "Café", correct: false },
+      { text: "Dome au fraise", correct: false },
+    ]
+  },
+   {
+    theme: "Amour",
+    question: "pays préféré des ellye ?",
+    answers: [
+      { text: "chine", correct: true },
+      { text: "inde", correct: false },
+      { text: "africa", correct: false },
+      { text: "russie", correct: false },
+    ]
+  },
+   {
+    theme: "Amour",
+    question: "pays préféré de nesrine ?",
+    answers: [
+      { text: "allemagne", correct: true },
+      { text: "france", correct: false },
+      { text: "tunisie", correct: false },
+      { text: "canada", correct: false },
+    ]
+  },
+
+  
+];
+
 
 // Éléments du DOM
 const questionElement = document.getElementById("question");
